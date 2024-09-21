@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      header {
+        background-color: #2c3e50;
+        padding: 15px 0;
+      }
+
+      nav {
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .menu li {
+        display: inline;
+        margin: 0 20px;
+      }
+
+      .menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+      }
+
+      .menu a:hover {
+        text-decoration: underline;
+      }
+
+      .about-section {
+        background-color: white;
+        padding: 60px 20px;
+        max-width: 1200px;
+        margin: 40px auto;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .container {
+        text-align: center;
+      }
+
+      .about-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .about-text {
+        flex: 1 1 50%;
+        text-align: left;
+      }
+
+      .about-text h1 {
+        font-size: 2.5em;
+        color: #2980b9;
+        margin-bottom: 20px;
+      }
+
+      .about-text p {
+        font-size: 1.2em;
+        line-height: 1.8;
+        margin-bottom: 20px;
+      }
+
+      .about-media {
+        flex: 1 1 45%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .about-media img,
+      .about-media video {
+        max-width: 100%;
+        border-radius: 27px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      @media (max-width: 768px) {
+        .about-content {
+          flex-direction: column;
+        }
+
+        .about-text,
+        .about-media {
+          flex: 1 1 100%;
+        }
+
+        .about-text h1 {
+          font-size: 2em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h1>We've been Making The Delicious Foods Since 1999</h1>
+            <p>
+              Fusce hendrerit malesuada lacinia. Donec semper semper sem vitae
+              malesuada. Proin scelerisque risus et ipsum semper molestie sed in
+              nisi. Ut rhoncus congue lectus, rhoncus venenatis leo malesuada
+              id.
+            </p>
+            <p>
+              Sed elementum vel felis sed scelerisque. In arcu diam,
+              sollicitudin eu nibh ac, posuere tristique magna. You can use this
+              template for your cafe or restaurant website Thank you.
+            </p>
+          </div>
+          <div class="about-media">
+            <image src="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
