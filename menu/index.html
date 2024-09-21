@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Menu</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+      }
+
+      .menu-section {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .menu-section h1 {
+        font-size: 2.5em;
+        margin-bottom: 40px;
+        color: #333;
+      }
+
+      .menu-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+      .menu-item {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        margin: 20px;
+        width: 300px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .menu-item:hover {
+        transform: scale(1.05);
+      }
+
+      .menu-item img {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+
+      .menu-item-info {
+        padding: 20px;
+        text-align: left;
+      }
+
+      .menu-item-info h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .menu-item-info p {
+        font-size: 1em;
+        color: #666;
+        margin-bottom: 15px;
+      }
+
+      .menu-item-info .price {
+        font-size: 1.2em;
+        color: #e74c3c;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="menu-section">
+      <h1>Our Menu</h1>
+      <div class="menu-container">
+        <div class="menu-item">
+          <img src="menu-image4.jpg" alt="Dish 1" />
+          <div class="menu-item-info">
+            <h2>Rice soup</h2>
+            <p>green/chicken.</p>
+            <span class="price">$18.99</span>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="menu-image1.jpg" alt="Dish 2" />
+          <div class="menu-item-info">
+            <h2>American Breakfast</h2>
+            <p>Tomatoes/Eggs/Sausage/.</p>
+            <span class="price">$22.50</span>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="menu-image5.jpg" alt="Dish 3" />
+          <div class="menu-item-info">
+            <h2>Deli burger</h2>
+            <p>Beef/Fried Potatoes.</p>
+            <span class="price">$16.75</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
